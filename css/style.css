@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------*/
 body {
   background: repeat url("../image/background.png");
-  font: 18px "Montserrat SemiBold";
+  font: 20px "Montserrat SemiBold";
   color: #f1f1f1; }
   body .wrapper {
     width: 980px;
@@ -168,4 +168,4 @@ body {
     text-transform: uppercase; }
   .content__font_view1 {
     color: #eeff66;
-    font-size: 22px; } }
+    font-size: 18px; } }
