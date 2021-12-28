@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------------*/
 body {
-  background: repeat url("../img/background.png");
+  background: repeat url("../image/background.png");
   font: 18px "Montserrat SemiBold";
   color: #f1f1f1; }
   body .wrapper {
@@ -132,8 +132,8 @@ body {
   color: #eeff66;
   font-size: 22px; }
 
-img {
-  max-width: 960px;
+.image {
+  max-width: 98%;
   padding: 24px; }
 
 @media (max-width: 960px) {
@@ -141,6 +141,6 @@ img {
     width: 96%;
     margin: 0 auto;
     height: 100%; }
-  img {
+  .image {
     max-width: 100%;
     padding: 0px; } }
