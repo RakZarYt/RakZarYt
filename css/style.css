@@ -119,10 +119,10 @@ body {
   color: #3344ff; }
 
 .content__font_link:visited {
-  color: #ff3344; }
+  color: #ddeeaa; }
 
 .content__font_link:hover {
-  color: #ddeeaa; }
+  color: #ff3344; }
 
 .footer__font {
   font: 20px "Montserrat ExtraBold";
@@ -133,7 +133,7 @@ body {
   font-size: 22px; }
 
 .image {
-  max-width: 98%;
+  max-width: 96%;
   padding: 24px; }
 
 @media (max-width: 960px) {
@@ -143,4 +143,29 @@ body {
     height: 100%; }
   .image {
     max-width: 100%;
-    padding: 0px; } }
+    padding: 0px; }
+  .header__font {
+    font: 24px "Montserrat ExtraBold"; }
+  .content__font_heading {
+    font: 22px "Montserrat ExtraBold";
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    margin-bottom: 8px; }
+  .content__font_base {
+    font: 18px "Montserrat SemiBold";
+    text-indent: 8px;
+    margin-bottom: 8px; }
+    .content__font_base:last-child {
+      margin-bottom: 0px; }
+  .content__font_link:link {
+    color: #3344ff; }
+  .content__font_link:visited {
+    color: #ddeeaa; }
+  .content__font_link:hover {
+    color: #ff3344; }
+  .footer__font {
+    font: 20px "Montserrat ExtraBold";
+    text-transform: uppercase; }
+  .content__font_view1 {
+    color: #eeff66;
+    font-size: 22px; } }
