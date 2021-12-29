@@ -95,6 +95,11 @@ body {
         background: -o-linear-gradient(135deg, #ff0033, #3300ff);
         background: linear-gradient(-45deg, #ff0033, #3300ff); }
 
+.content__box {
+  margin: 0 0 24px 0; }
+  .content__box:last-child {
+    margin: 0; }
+
 .footer {
   background: rgba(35, 35, 35, 0.75);
   padding: 8px; }
@@ -133,7 +138,7 @@ body {
   font-size: 22px; }
 
 .content__font_signature {
-  background: #ee4466;
+  background: #ee7766;
   color: #f6f6f6;
   font: 16px "Montserrat";
   padding: 9px;
@@ -154,7 +159,7 @@ body {
   .image {
     padding: 0px; }
   .content__font_signature {
-    background: #ee4466;
+    background: #ee7766;
     color: #f6f6f6;
     font: 16px "Montserrat";
     padding: 9px;
