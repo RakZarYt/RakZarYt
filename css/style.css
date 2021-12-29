@@ -69,6 +69,9 @@ body {
     margin: 0 auto;
     height: 100%; }
 
+.logo {
+  position: fixed; }
+
 .header {
   background: rgba(35, 35, 35, 0.75);
   padding: 8px;
@@ -102,7 +105,8 @@ body {
 
 .footer {
   background: rgba(35, 35, 35, 0.75);
-  padding: 8px; }
+  padding: 8px;
+  text-align: center; }
 
 .header__font {
   font: 24px "Montserrat ExtraBold"; }
@@ -130,7 +134,7 @@ body {
   color: #ff3344; }
 
 .footer__font {
-  font: 20px "Montserrat ExtraBold";
+  font: 23px "Montserrat ExtraBold";
   text-transform: uppercase; }
 
 .content__font_view1 {
@@ -142,14 +146,13 @@ body {
   color: #f6f6f6;
   font: 16px "Montserrat";
   padding: 9px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  margin-top: 8px;
+  margin-top: 12px;
   text-align: center; }
 
 .image {
-  max-width: 96%;
-  padding: 24px; }
+  max-width: 100%; }
 
 @media (max-width: 960px) {
   body .wrapper {
@@ -168,14 +171,14 @@ body {
     margin-top: 8px;
     text-align: center; }
   .header__font {
-    font: 30px "Montserrat ExtraBold"; }
+    font: 27px "Montserrat ExtraBold"; }
   .content__font_heading {
-    font: 28px "Montserrat ExtraBold";
+    font: 25px "Montserrat ExtraBold";
     margin-bottom: 8px;
     text-transform: uppercase;
     margin-bottom: 8px; }
   .content__font_base {
-    font: 24px "Montserrat SemiBold";
+    font: 21px "Montserrat SemiBold";
     text-indent: 8px;
     margin-bottom: 8px; }
     .content__font_base:last-child {
@@ -187,8 +190,8 @@ body {
   .content__font_link:hover {
     color: #ff3344; }
   .footer__font {
-    font: 26px "Montserrat ExtraBold";
+    font: 23px "Montserrat ExtraBold";
     text-transform: uppercase; }
   .content__font_view1 {
     color: #eeff66;
-    font-size: 24px; } }
+    font-size: 21px; } }
