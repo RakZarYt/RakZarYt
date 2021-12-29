@@ -159,6 +159,8 @@ body {
   max-width: 100%; }
 
 @media (max-width: 960px) {
+  .logo {
+    visibility: collapse; }
   body .wrapper {
     width: 96%;
     margin: 0 auto;
