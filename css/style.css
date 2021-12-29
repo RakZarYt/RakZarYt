@@ -75,11 +75,6 @@ body {
   margin: 0px 0px 8px 0px;
   text-transform: uppercase; }
 
-.nav {
-  background: rgba(35, 35, 35, 0.75);
-  padding: 8px;
-  margin: 0px 0px 8px 0px; }
-
 .content {
   min-height: 100%;
   background: rgba(35, 35, 35, 0.5);
@@ -106,34 +101,6 @@ body {
 
 .header__font {
   font: 24px "Montserrat ExtraBold"; }
-
-@-webkit-keyframes nav__anim {
-  from {
-    background: #f1f1f1;
-    color: #3366ff; }
-  to {
-    background: #191919;
-    color: #ff3366; } }
-
-@keyframes nav__anim {
-  from {
-    background: #f1f1f1;
-    color: #3366ff; }
-  to {
-    background: #191919;
-    color: #ff3366; } }
-
-.nav button {
-  background: #f1f1f1;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  -webkit-animation-name: nav__anim;
-  animation-name: nav__anim; }
-
-.nav .nav__link {
-  font: 22px "Montserrat ExtraBold";
-  padding: 16px;
-  color: #3366ff; }
 
 .content__font_heading {
   font: 22px "Montserrat ExtraBold";
@@ -185,17 +152,25 @@ body {
     margin: 0 auto;
     height: 100%; }
   .image {
-    max-width: 100%;
     padding: 0px; }
+  .content__font_signature {
+    background: #ee4466;
+    color: #f6f6f6;
+    font: 16px "Montserrat";
+    padding: 9px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 8px;
+    text-align: center; }
   .header__font {
-    font: 24px "Montserrat ExtraBold"; }
+    font: 30px "Montserrat ExtraBold"; }
   .content__font_heading {
-    font: 22px "Montserrat ExtraBold";
+    font: 28px "Montserrat ExtraBold";
     margin-bottom: 8px;
     text-transform: uppercase;
     margin-bottom: 8px; }
   .content__font_base {
-    font: 18px "Montserrat SemiBold";
+    font: 24px "Montserrat SemiBold";
     text-indent: 8px;
     margin-bottom: 8px; }
     .content__font_base:last-child {
@@ -207,8 +182,8 @@ body {
   .content__font_link:hover {
     color: #ff3344; }
   .footer__font {
-    font: 20px "Montserrat ExtraBold";
+    font: 26px "Montserrat ExtraBold";
     text-transform: uppercase; }
   .content__font_view1 {
     color: #eeff66;
-    font-size: 18px; } }
+    font-size: 24px; } }
