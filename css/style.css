@@ -75,6 +75,11 @@ body {
   margin: 0px 0px 8px 0px;
   text-transform: uppercase; }
 
+.nav {
+  background: rgba(35, 35, 35, 0.75);
+  padding: 8px;
+  margin: 0px 0px 8px 0px; }
+
 .content {
   min-height: 100%;
   background: rgba(35, 35, 35, 0.5);
@@ -101,6 +106,34 @@ body {
 
 .header__font {
   font: 24px "Montserrat ExtraBold"; }
+
+@-webkit-keyframes nav__anim {
+  from {
+    background: #f1f1f1;
+    color: #3366ff; }
+  to {
+    background: #191919;
+    color: #ff3366; } }
+
+@keyframes nav__anim {
+  from {
+    background: #f1f1f1;
+    color: #3366ff; }
+  to {
+    background: #191919;
+    color: #ff3366; } }
+
+.nav button {
+  background: #f1f1f1;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: nav__anim;
+  animation-name: nav__anim; }
+
+.nav .nav__link {
+  font: 22px "Montserrat ExtraBold";
+  padding: 16px;
+  color: #3366ff; }
 
 .content__font_heading {
   font: 22px "Montserrat ExtraBold";
